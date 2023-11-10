@@ -32,6 +32,8 @@ def Build_bar_chart(csv_to_read):
    
     # Show the bar chart
     plt.show()
+
+
 # Pass CSV file to function
 csv_to_read = r'C:\Users\Avinash Reddy\Videos\ADS1Assgn\Prasanna\Co2_Emission.csv'
 Build_bar_chart(csv_to_read)
