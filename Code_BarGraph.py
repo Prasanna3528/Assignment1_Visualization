@@ -8,7 +8,7 @@ def Build_bar_chart(csv_to_read):
     based on data from a CSV file.
 
     Parameters:
-    - csv_file_path (str): The path to the CSV file 
+    - csv_to_read (str): The path to the CSV file 
     containing CO2 emissions data.
 
     Returns:
