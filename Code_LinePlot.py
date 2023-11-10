@@ -15,8 +15,8 @@ def Build_line_plot(CSV_to_Read):
     # Load the dataset from the CSV file
     data = pd.read_csv(CSV_to_Read)
 
-    # Getting the data of country codes and years
-    # Fetched the country codes from the CSV
+    # Getting the data of country Names and years
+    # Fetched the country Names from the CSV
     countries = data['Country Name']
     # data of years initiates from column 2
     years = data.columns[1:]
