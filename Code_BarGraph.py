@@ -35,5 +35,5 @@ def Build_bar_chart(csv_to_read):
 
 
 # Pass CSV file to function
-csv_to_read = r'C:\Users\Avinash Reddy\Videos\ADS1Assgn\Prasanna\Co2_Emission.csv'
+csv_to_read = r'C:\Users\prasanna_chowdary_0\OneDrive\Desktop\AD1 Assignment\Co2_Emission.csv'
 Build_bar_chart(csv_to_read)
