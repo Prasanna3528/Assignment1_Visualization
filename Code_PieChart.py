@@ -31,5 +31,5 @@ def Build_pie_chart(CSV_to_Read):
 
 
 # Pass CSV File to generate data
-CSV_to_Read = r'C:\Users\Avinash Reddy\Videos\ADS1Assgn\Prasanna\Earth_Coverage.csv'
+CSV_to_Read = r'C:\Users\prasanna_chowdary_0\OneDrive\Desktop\AD1 Assignment\Earth_Coverage.csv'
 Build_pie_chart(CSV_to_Read)
