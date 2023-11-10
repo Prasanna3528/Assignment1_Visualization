@@ -40,5 +40,5 @@ def Build_line_plot(CSV_to_Read):
 
 
 # Calling the function to create the Line plot
-CSV_to_Read = r'C:\Users\Avinash Reddy\Videos\ADS1Assgn\Prasanna\Co2_Emission.csv'
+CSV_to_Read = r'C:\Users\prasanna_chowdary_0\OneDrive\Desktop\AD1 Assignment\Co2_Emission.csv'
 Build_line_plot(CSV_to_Read)
