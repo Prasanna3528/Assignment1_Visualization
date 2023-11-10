@@ -1,5 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+
+
 def Build_pie_chart(CSV_to_Read):
     """
     Generate a pie chart to visualize the distribution of Earth
@@ -16,7 +18,7 @@ def Build_pie_chart(CSV_to_Read):
     # Get the data of Percentages
     percent = data.iloc[:, 1]  # Percentages are in the 1st column.
 
-    # Get the data of Food
+    # Get the data of Types
     types = data['Covered by']
 
     # Creating a pie chart using the data.
@@ -26,6 +28,8 @@ def Build_pie_chart(CSV_to_Read):
 
     # Display the plot
     plt.show()
-# Replace 'path_to_file.csv' with the actual path to your CSV file
+
+
+# Pass CSV File to generate data
 CSV_to_Read = r'C:\Users\Avinash Reddy\Videos\ADS1Assgn\Prasanna\Earth_Coverage.csv'
 Build_pie_chart(CSV_to_Read)
